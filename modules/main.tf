@@ -8,7 +8,3 @@ resource "aws_instance" "example1" {
   instance_type = var.instance_type_value
 }
 
-output "public_ip_address" {
-    value = aws_instance.example1.public_ip
-  
-}
